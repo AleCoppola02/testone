@@ -41,7 +41,7 @@ public class FirstServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		java.util.Date today = new java.util.Date();
 		out.println(
-				"<html>" + "<body>" + "<h1 align=center> First Servlet </h1>" + "<br>" + today + "</body>" + "</html>");
+				"<html>" + "<body>" + "<h1 align=center> Dio Servlet </h1>" + "<br>" + today + "</body>" + "</html>");
 	}
 
 	/**
